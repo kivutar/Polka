@@ -1,0 +1,72 @@
+body {
+    font-family: Ubuntu, Sans;
+    font-size: 14px;
+    color: #222;
+}
+
+body>div {
+    width: 900px;
+    margin: 50px auto;
+}
+
+body>div:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 { color: green; padding-top: 20px; }
+
+a, a:link, a:visited { color: #B3CC33; }
+a:hover { color: green; }
+
+nav {
+    float: right;
+    width: 250px;
+}
+
+nav ul {
+    padding: 0 0 0 20px;
+    margin: 0;
+}
+
+nav li {
+    border-top: 1px solid #eee;
+    padding: 5px 0;
+    display: block;
+    list-style-type: none;
+}
+
+nav li:first-child { border: none; }
+
+li.dir>ul { display: none; }
+li.dir:hover>ul, li.dir>ul.active { display: block; }
+li.active a { font-weight: bold; color: green; }
+
+a { text-decoration: none; }
+
+#main-title { font-size: 3em; }
+
+blockquote {
+    border-left: solid 3px #eee;
+    padding-left: 10px;
+    margin: 0;
+}
+
+code {
+    padding: 10px;
+    margin: 0;
+    display: block;
+    border: 1px solid #ddd;
+    background: #eee;
+    overflow:auto;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    color: gray;
+}
+
