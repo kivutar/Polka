@@ -22,7 +22,7 @@ Installation
     cpan> install Dancer
     cpan> install Text::Markdown
     cpan> exit
-    $ git clone xxxx polka
+    $ git clone git://github.com/Kivutar/Polka.git polka
 
 Usage
 -----
