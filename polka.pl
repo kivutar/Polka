@@ -38,11 +38,10 @@ sub menu {
 }
 
 get qr{/(?<path>.*)} => sub {
-    return cache captures->{path} if captures->{path} =~ /static/;
     captures->{path} ||= 'Home';
     "<html>
         <head>
-            <link href=\"/static/style.css\" rel=\"stylesheet\" type=\"text/css\" />
+            <link href=\"style.css\" rel=\"stylesheet\" type=\"text/css\" />
         </head>
         <body>
             <div>
