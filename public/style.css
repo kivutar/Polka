@@ -47,7 +47,7 @@ li.active a { font-weight: bold; color: green; }
 
 a { text-decoration: none; }
 
-#main-title { font-size: 3em; }
+#main-title { font-size: 2em; }
 
 blockquote {
     border-left: solid 3px #eee;
