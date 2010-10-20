@@ -2,6 +2,7 @@
 use Dancer;
 use File::Find;
 use Text::Markdown 'markdown';
+use utf8;
 
 my %cache;
 my $dirtree = dirtree( 'data' );
