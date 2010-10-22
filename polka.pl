@@ -42,7 +42,7 @@ get qr{/(?<path>.*)} => sub {
     captures->{path} ||= 'Home';
     "<html>
         <head>
-            <link href=\"style.css\" rel=\"stylesheet\" type=\"text/css\" />
+            <link href=\"/style.css\" rel=\"stylesheet\" type=\"text/css\" />
         </head>
         <body>
             <div>
